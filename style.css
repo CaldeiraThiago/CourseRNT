@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    height: 18px;
+    margin-left: 20px;
+}
+
+.listadelinks{
+    display: flex;
+    list-style: none;
+}
+
+.listadelinks a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.listadelinks a:hover{
+    color: blueviolet;
+}
+
+main{
+    background-image: url(assets/fundo.png);
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.container h1{
+    color: blueviolet;
+}
+
+.container h3{
+    color: antiquewhite;
+}
+
+.container button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: black;
+    font-size: 15px;
+}
